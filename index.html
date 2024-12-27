@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix - Login</title>
+  <style>
+    /* Estilo geral */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    /* Container principal */
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/8e1e1f3e-70f5-4c61-9c0b-4a6b7afb3e3b/505e5c86-bab8-4655-92a1-1e6c8396f2e0/BR-pt-20230626-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Caixa de login */
+    .login-box {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 350px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Título */
+    .login-box h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    /* Inputs */
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    /* Botão de login */
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #e50914;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: #f6121d;
+    }
+
+    /* Links */
+    .login-box a {
+      color: #b3b3b3;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .login-box a:hover {
+      text-decoration: underline;
+    }
+
+    /* Opções adicionais */
+    .login-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: #b3b3b3;
+      margin-top: 10px;
+    }
+
+    .login-options input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .login-box .help {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Entrar</h1>
+      <form>
+        <input type="email" placeholder="Email ou número de telefone" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+      </form>
+      <div class="login-options">
+        <label>
+          <input type="checkbox"> Lembre-se de mim
+        </label>
+        <a href="#">Precisa de ajuda?</a>
+      </div>
+      <div class="help">
+        <p>Primeira vez na Netflix? <a href="#">Assine agora</a>.</p>
+
+        <a href="site.html">Clique Aqui</a>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
